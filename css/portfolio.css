@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+
+.body {
+    margin: 0;
+    display: flex;
+    background: linear-gradient(107.38deg, #da3e3e 0.25%, #5e9dbc 100%);
+    height: 1vh;
+}
+
+.page {
+    width: 100%;
+}
+
+.header {
+    max-width: 750px;
+    width: 100%;
+    background-color: #1f1d3b;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #5e9dbc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto {
+    width: 120px;
+    height: 150px;
+    background-size: contain;
+    margin: 10px auto;
+}
+
+.text {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: #5e9dbc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-tit {
+    color: white;
+    font-weight: 300;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.list {
+    margin: 0 auto;
+}
+
+.list-element {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.project {
+    max-width: 750px;
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: #ce6363;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.project_color {
+    background-color: #1f1d3b;
+}
+
+.project-tit {
+    color: #1f1d3b;
+    font-weight: 300;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.project-tit_color {
+    color: #ce6363;
+}
+
+.link {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: #5e9dbc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    max-width: 750px;
+    width: 100%;
+    padding-bottom: 15px;
+    background-color: #ce6363;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer_text {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    color: #5e9dbc;
+    margin-top: 15px;
+}
